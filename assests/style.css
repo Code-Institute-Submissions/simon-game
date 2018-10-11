@@ -1,0 +1,184 @@
+body{
+    background-color: pink;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pad{
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 294px;
+    height: 294px;
+    z-index: 8;
+    border: 3px solid white;
+}
+.simonBoard{
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 600px;
+    width: 600px;
+    height: 600px;
+    box-shadow: -10px 10px 7px 0px rbga(50, 50, 50, 0.75);
+}
+
+
+#yellow{
+    background-color: yellow;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 0 0 0 300px;
+}
+
+#yellow-active{
+    background-color: gold !important;
+}
+
+#red{
+    background-color: red;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 300px 0 0 0;
+}
+
+#red-active{
+    background-color: darkred !important;
+}
+
+#blue{
+    background-color: blue;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 0 0 300px 0;
+}
+
+#blue-active{
+    background-color: darkblue !important;
+}
+
+#green{
+    background-color: green;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 0 300px 0 0;
+}
+
+#green-active{
+    background-color: darkgreen !important;
+}
+
+.controls{
+    position:absolute;
+  background-color: pink;
+  border: 3px solid white;
+	width:200px;
+	height:200px;
+	margin-top: 185px;
+	margin-bottom: 150px;
+	margin-left: 195px;
+	position: center !important;
+	border-radius:50%;
+	z-index: 12;
+}
+
+.gameContainer {
+	position:relative;
+	width:440px;
+	height:440px;
+	margin:0 auto;
+  margin-top: 50px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-color: grey;
+  
+}
+
+.title{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.display{
+    border: 1px solid white;
+    height: 30px;
+    width: 40px;
+    position: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: pink;
+    margin-left: 80px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.start, .strict{
+    margin: 0;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    height: 55px;
+    width: 55px;
+    margin-left: 20px;
+    border-radius: 30px;
+    line-height: 55px;
+}
+
+.start{
+    background-color: red;
+    cursor: pointer;
+}
+
+.strict{
+    background-color: green;
+    cursor: pointer;
+}
+
+.switch-container{
+    margin-top: 10px;
+}
+
+.outter-switch{
+    border: solid 2px white;
+    width: 60px;
+    height: 25px;
+    background-color: pink;
+}
+
+.outter-active{
+    background-color: gray !important;
+}
+
+.inner-switch{
+    background-color: gray;
+    width: 30px;
+    height: 25px;
+    position: relative !important;
+}
+
+.inner-inactive{
+    background-color: black !important;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+.footerstyle{
+    margin-left: 100px;
+}
