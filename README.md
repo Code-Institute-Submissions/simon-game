@@ -45,11 +45,11 @@ HTML - For the elements of the game
 * Does the sound effects work when a button is pressed?
 * Do the buttons flash when pressed or called by the sequence?
 
-#Deployment
+# Deployment
 
 Deployed on to GitHub Pages.
 
-#Credits
+# Credits
 
 The Audio was taken from the internet.
 I have been inspired by Youtuber's simon games.
