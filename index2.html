@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <title>Simon Game</title>
+        <link rel="stylesheet" href="assests/style.css" type="text/css"/>
+        <!--- link to CSS page-->
+</head>
+
+
+<body>
+    <audio preload ="auto" id ="sound-red">
+        <source src=""></source>
+    </audio>
+    <audio preload ="auto" id ="sound-blue">
+        <source src=""></source>
+    </audio>
+    <audio preload ="auto" id ="sound-yellow">
+        <source src=""></source>
+    </audio>
+    <audio preload ="auto" id ="sound-green">
+        <source src=""></source>
+    </audio>
+    <!--- the sound effects for the buttons--->
+    
+      <div class="container">
+            <div class="simonBoard">
+                <div id="red" class="pad red button" ></div>
+                <div id="green" class="pad green button"></div>
+                <div id="yellow" class="pad yellow button"></div>
+                <div id="blue" class="pad blue button"></div>
+                <!--- buttons for sequence --->
+            
+            <div class="controls">
+                <div class="title">SIMON</div>
+                <div class="display" id="show-rounds">00</div>
+                <div id="start" class="start-btn">START</div>
+                <div class="strict-btn" id="mode">STRICT</div>
+                <div id="reset" class="reset-btn">RESET</div>
+                <!--- control buttons --->
+               </div>
+               </div>
+               </div>
+               
+      
+       <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <!---- link to jquery --->
+            <script src="java.js"></script>
+            <!--- link to java script page-->
+</body>
+
+<footer class="container-fluid ">
+    <div class="row footerstyle">
+        <div class="col-md-6 ">
+            <h5>
+                COPYRIGHT © 2018 SIMON GAME, IT'S SUPPLIERS OR LICENSORS. ALL RIGHTS RESERVED.
+            </h5>
+        </div>
+
+        <div class="col-md-6 footertext">
+            <h5>Created By Megan Smith</h5>
+        </div>
+    </div>
+
+</footer>
+</html>
