@@ -33,7 +33,7 @@ Font Awesome - I have used font awesome to add some different font onto my websi
 CSS - For styling the game
 HTML - For the elements of the game
 
-Testing
+#Testing
 
 -Does the game start when pressed the start button?
 -Does the levels section go up each time your on a new level?
@@ -45,9 +45,9 @@ Testing
 -Does the sound effects work when a button is pressed?
 -Do the buttons flash when pressed or called by the sequence?
 
-Deployment
+#Deployment
 
-Credits
+# Credits
 
 The Audio was taken from the internet.
 I have been inspired by Youtuber's simon games.
